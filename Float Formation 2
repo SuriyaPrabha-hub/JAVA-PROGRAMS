@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        float a = sc.nextFloat();
+
+        System.out.printf("%.6f\n", a);
+        System.out.printf("%.4f\n", a);
+        System.out.printf("%.2f\n", a);
+        System.out.printf("%.0f\n", a);
+    }
+}
+
+Sample Input 
+67.98
+Sample Output 
+
+67.980003
+67.9800
+67.98
+68
