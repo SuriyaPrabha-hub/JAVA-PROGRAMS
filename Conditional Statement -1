@@ -20,3 +20,9 @@ public class Solution {
         }
     }        
 }
+
+
+Sample Input 
+1500
+Sample Output 
+HiHello
