@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int sum=0,product=1,rem;
+       while(n!=0){
+           rem=n%10;
+           if(n%2==0){
+           sum=sum+rem;      
+           } 
+           else{
+               product=product*rem;
+           }
+       
+           n=n/10;
+       }
+        System.out.print(sum+" "+product);
+      
+    }
+}
+
+
+ Input 
+24351
+ Output
+6 15
